@@ -1,0 +1,105 @@
+# Archivos de Docker y contenedores
+.env
+.env.local
+.env.production
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*~
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Archivos de base de datos locales
+*.db
+*.sqlite3
+pg_data/
+postgres_data/
+
+# Archivos de caché
+.cache/
+redis_data/
+
+# Certificados SSL
+*.pem
+*.key
+*.crt
+*.cert
+
+# Backups
+*.sql.gz
+*.dump
+backup/
+
+# Variables de entorno sensibles
+secrets/
+.secrets
+
+# Archivos de configuración específicos del entorno
+config/local.yml
+config/production.yml
+
+# Archivos de monitoreo y métricas
+prometheus_data/
+grafana_data/
+
+# Node.js (si usas frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Documentación generada
+docs/_build/
