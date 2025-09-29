@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Aplicación Web Principal - Stack Docker Compose
-Autor: Tu Nombre
+Autor: Germán
 Descripción: API REST con FastAPI, PostgreSQL y Redis
 """
 
@@ -44,7 +44,7 @@ aplicacion = FastAPI(
 # Configurar CORS
 aplicacion.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if ENTORNO == 'desarrollo' else ["https://tu-dominio.com"],
+    allow_origins=["*"] if ENTORNO == 'desarrollo' else ["https://dominio.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
